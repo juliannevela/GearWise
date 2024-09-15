@@ -1,0 +1,24 @@
+{
+  "classes": [
+    {
+      "name": "Death Knight",
+      "specializations": ["Frost", "Blood", "Unholy"]
+    },
+    {
+      "name": "Paladin",
+      "specializations": ["Retribution", "Protection", "Holy"]
+    },
+    {
+      "name": "Priest",
+      "specializations": ["Discipline", "Holy", "Shadow"]
+    },
+    {
+      "name": "Hunter",
+      "specializations": ["Beast Mastery", "Marksmanship", "Survival"]
+    },
+    {
+      "name": "Shaman",
+      "specializations": ["Elemental", "Enhancement", "Restoration"]
+    }
+  ]
+}

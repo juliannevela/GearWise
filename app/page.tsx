@@ -1,9 +1,11 @@
+import HeroCarousel from '@/components/HeroCarousel';
+import Searchbar from '@/components/Searchbar';
 import Image from 'next/image';
 
 const Home = () => {
   return (
     <>
-      <section className="padding-x-6 md:px-20 py-24 border-2 border-red-500">
+      <section className="padding-x-6 md:px-20 py-24 ">
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center">
             <p className="small-text">
@@ -18,9 +20,9 @@ const Home = () => {
               Discover the best gear for your World of Warcraft character, customized for every
               class and specialization.
             </p>
-            SearchBar
+            <Searchbar />
           </div>
-          HeroCarousel
+          <HeroCarousel />
         </div>
       </section>
       <section className="trending-section">
